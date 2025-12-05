@@ -128,6 +128,28 @@ Response from API running in Kubernetes:
   }
 ]
 
+SCREENSHOTS :- 
+
+### Kubernetes Pods Running Initially
+![Initial Pods](./screenshots/k8s-pods-initial.png)
+command used :- kubectl get pods -n vishal-dev
+
+
+### HPA Monitoring Scaling in Real-Time
+![HPA Monitoring](./screenshots/hpa-monitoring.png)
+command used :- kubectl get hpa -n vishal-dev -w
+
+
+### Locust Load Test Running (200 Users)
+![Locust Test](./screenshots/locust-ui.png)
+command used :- locust -f locustfile.py
+
+### Locust Load Test Running (200 Users)
+![Locust Dashboard](./screenshots/Locustdashboard.png)
+
+### Autoscaled Pods After High Load
+![Scaled Pods](./screenshots/pods-scaled.png)
+command used :- kubectl get pods -n vishal-dev
 
 
 🧹 Cleanup
