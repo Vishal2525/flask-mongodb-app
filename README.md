@@ -151,6 +151,9 @@ command used :- locust -f locustfile.py
 ![Scaled Pods](./screenshots/pods-scaled.png)
 command used :- kubectl get pods -n vishal-dev
 
+### HPA Fixed
+![Scaled Pods after fixing](./screenshots/HPA-Fixed.png)
+
 
 🧹 Cleanup
 Stop Minikube:
